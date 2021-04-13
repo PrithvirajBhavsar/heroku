@@ -1,0 +1,15 @@
+form div{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+form div span,h2{
+    color: white;
+}
+form div span{
+    width:20%;
+    text-align: center;
+}
+form div input{
+    width:65%;
+}
