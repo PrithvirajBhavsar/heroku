@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = "http://localhost:5000/";
+const url = "https://backendpri.herokuapp.com/";
 
 export const getUser = ()=> axios.get(url);
 export const postUser = (user)=> axios.post(url,user);
